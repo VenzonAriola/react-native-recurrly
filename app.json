@@ -39,7 +39,8 @@
           }
         }
       ],
-      ["expo-fonts", {"fonts" : [
+      ["expo-font", {
+        "fonts" : [
         "./assets/fonts/PlusJakartaSans-Regular.ttf",
         "./assets/fonts/PlusJakartaSans-Medium.ttf",
         "./assets/fonts/PlusJakartaSans-Light.ttf",
