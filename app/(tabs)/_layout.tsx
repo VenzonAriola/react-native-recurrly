@@ -3,7 +3,7 @@ import {tabs} from "@/constants/data";
 import {View} from "react-native";
 import clsx from "clsx";
 import {colors,components} from "@/constants/theme";
-import {Image} from "expo-image";
+import {Image} from "react-native";
 import {useSafeAreaInsets} from "react-native-safe-area-context";
 
 const tabBar = components.tabBar;
@@ -14,6 +14,7 @@ const tabBar = components.tabBar;
             <View className={clsx('tabs-pill', focused && 'tabs-active')}>
                 <Image source={icon} resizeMode="contain" className="tabs-glyph" />
             </View>
+
         </View>
         );
     };
